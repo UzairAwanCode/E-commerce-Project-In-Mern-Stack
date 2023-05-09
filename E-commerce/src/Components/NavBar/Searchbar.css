@@ -1,0 +1,22 @@
+.main-search-container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: -220px;
+    top: 40px;
+    max-width: 350px;
+    height: 8vh;
+    z-index: 99;
+}
+
+.search-mainbox{
+    transition: transform 0.2s ease-in-out;
+}
+
+
+@media screen and (max-width: 970px) {
+    .searchbody{
+        display: none;
+    }
+  }

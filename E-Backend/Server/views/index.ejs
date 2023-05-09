@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      var status = '<%- JSON.stringify(status) %>';
+
+      if(JSON.parse(status) == "Not Maching")
+      {
+        alert("New password & Confirm Password Not Matching")
+      }
+      if (JSON.parse(status) == "Verified") 
+      {
+        if (confirm("Do u want to login?")) 
+        {
+          window.location.href = "http://localhost:3000/account";
+        }
+      }
+    </script>
+
+    <style>
+      .btn{
+        border-radius: 10px;
+    width: 127px;
+    height: 36px;
+    background: blanchedalmond;
+    font-weight: 900;
+
+      }
+      .input-text{
+    display: block;
+    width: 20%;
+    height: 40px;
+    border-width: 0 0 2px 0;
+    border-color: none;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.accountform{
+    margin-left: 600px;
+    margin-top: 100px;
+}
+    </style>
+  </head>
+  <body>
+    <div class="accountform">
+      <h1><%= email%></h1>
+      <form action="" method="post">
+        <input
+        class='input-text'
+          type="password"
+          name="password"
+          id="password"
+          placeholder="password"
+        /><br />
+        <input
+        class='input-text'
+          type="password"
+          name="confirm"
+          id="confirm-password"
+          placeholder="confirm-password"
+        /><br />
+        <input  className="btn" type="submit" value="submit" />
+      </form>
+
+    </div>
+  </body>
+</html>

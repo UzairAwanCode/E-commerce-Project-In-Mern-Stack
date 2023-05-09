@@ -1,0 +1,19 @@
+(REFRIGRATORS)
+
+Number 1
+	Model No: 9173WB Avante+ Emerald Green
+Number 2
+        Model No: 9191WB Avante+ Ruby Red Refrigerator
+Number 3
+
+        Model No: 9178LF Avante+ Sapphire Purple
+Number 4
+
+        9169WB Chrome Pearl Copper Refrigerator
+
+(AIR CONDITIONER)
+ 1)     Econo 1.5 Ton Inverter Split AC
+
+2)   Enercon 2 Ton Inverter Split AC
+
+3)Chrome 1.5 Ton White Inverter Split AC
